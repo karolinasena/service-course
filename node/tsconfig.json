@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "types": ["node"],
-    "typeRoots": ["node_modules/@types"],
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "target": "es2017",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -16,6 +20,10 @@
   "typeAcquisition": {
     "enable": false
   },
-  "include": ["./**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

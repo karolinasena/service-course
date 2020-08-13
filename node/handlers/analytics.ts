@@ -8,7 +8,6 @@ export async function analytics(ctx: Context, next: () => Promise<any>) {
     ctx.body = await analytics.getLiveUsers();
     ctx.set('cache-control', 'no-cache');
 
-    ctx.set('cache-control', 'no-cache');
-  }
   await next();
+  }
 }
